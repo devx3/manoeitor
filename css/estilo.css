@@ -1,0 +1,89 @@
+/* Begin of Content */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antiliased;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* Body */
+body {
+	font: 100%/1.5em Helvetica, Arial, Sans-serif;
+	background: #A9E1A9;
+}
+
+/* Container */
+.container{ 
+	width: 90%; 
+	background: #DDD;
+	margin: 0 auto; 
+	box-shadow: -1px -1px 5px #666;
+}
+.container:after {
+	content: '';
+	display: block;
+	overflow: hidden;
+	visibility: none;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+.container .columns
+{
+	float: left;
+	margin: 0 0 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+/* colunas */
+.container .columns.one			{ width: 6.25%;  }
+.container .columns.two			{ width: 12.5%;  }
+.container .columns.three		{ width: 18.75%; }
+.container .columns.four		{ width: 25%;	 }
+.container .columns.five		{ width: 31.25%; }
+.container .columns.six			{ width: 37.5%;  }
+.container .columns.seven		{ width: 43.75%; }
+.container .columns.eight		{ width: 50%; 	 }
+.container .columns.nine		{ width: 56.25%; }
+.container .columns.ten			{ width: 100%; 	 }
+.container .columns.eleven		{ width: 68.75%; }
+.container .columns.twelve		{ width: 75%; 	 }
+.container .columns.thirteen	{ width: 81.25%; }
+.container .columns.fourteen	{ width: 87.5%;  }
+.container .columns.fifteen		{ width: 93.75%; }
+.container .columns.sixteen		{ width: 100%; 	 }
+/* Container */
+
+header .columns {
+	background-color: #68E668;
+	padding: 2em 1em;
+}
+
+footer {
+	text-align: center;
+	color: #FFF;
+}
+
+footer .columns {
+	background-color: #68E668;
+	padding: 1em 0;
+}
+
+/* End of Content */
+label{ display: block; }
+
+textarea{
+	width: 100%;
+	height: 10em;
+	resize: none;
+}
+
+button {
+	padding: 10px 20px;
+	font-weight: bold;
+	background: #A9E1A9;
+	border: 1px solid #2B7B58;
+}

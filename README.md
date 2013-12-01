@@ -1,0 +1,4 @@
+manoeitor
+=========
+
+Processador de textos
